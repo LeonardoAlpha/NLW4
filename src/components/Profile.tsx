@@ -5,10 +5,9 @@ import styles from '../styles/components/Profile.module.css';
 export function Profile(){
     const{ level } = useContext(ChallengesContext);
 
-
     return(
         <div className={styles.profileContainer}>
-            <img src="https://github.com/LeonardoAlpha.png" alt="Leonardo Lucca"/>
+            <img src="https://github.com/LeonardoLuccaDev.png" alt="Leonardo Lucca"/>
             <div>
                 <strong>Leonardo Lucca</strong>
                 <p>
